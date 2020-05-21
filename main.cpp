@@ -95,9 +95,9 @@ void ConvertModernToRoman(int numberModern) {                                   
     
     cout << numberModern << " as a roman numeral: ";
     while(numberModern > 0) {
-      int div = numberModern/num[i];
+      int divide = numberModern/num[i];
       numberModern = numberModern%num[i];
-      while(div--) {
+      while(divide--) {
         cout << numeral[i];
       }
       i--;
